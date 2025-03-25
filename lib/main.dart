@@ -111,7 +111,7 @@ class _QuoteListState extends State<QuoteList> {
                   SizedBox(height: 10),
                   ElevatedButton(
                     onPressed: _submitForm,
-                    child: Text(_selectedQuote == null ? 'Create' : 'Update'),
+                    child: Text('Create'),
                   ),
                 ],
               ),
